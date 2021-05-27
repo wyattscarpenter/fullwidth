@@ -1,6 +1,2 @@
-<textarea id="wordbox">
-<script type="module">
-import fullwidth from "./src/index.js";
-var w = document.getElementById("wordbox");
-w.addEventListener("input", function(){w.innerHTML=fullwidth(w.value);});
-</script>
+<script src="./src/index.js"></script>
+<div id="output"></div><textarea id="wordbox" oninput="output.innerHTML=fullwidth(wordbox.value)">
