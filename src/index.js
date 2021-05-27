@@ -1,6 +1,6 @@
-import dakutenMap from './dakuten'
-import handakutenMap from './handakuten'
-import charMap from './fullwidth'
+import dakutenMap from './dakuten.json'
+import handakutenMap from './handakuten.json'
+import charMap from './fullwidth.json'
 
 const dakuten = '\uFF9E'
 const handakuten = '\uFF9F'
