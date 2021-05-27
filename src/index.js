@@ -18,7 +18,7 @@ const dakutenCodesMap = charMapToCodesMap(dakutenMap)
 const handakutenCodesMap = charMapToCodesMap(handakutenMap)
 const codesMap = charMapToCodesMap(charMap)
 
-export default (str) => {
+function fullwidth (str) => {
   let res = ''
 
   for (let i = 0; i < str.length; i++) {
